@@ -1,0 +1,73 @@
+# Site settings
+BaseURL = "https://opensamba.github.io"
+# HTML Language Code Reference, such as en, zh-cn
+languageCode = "en"
+title = "samba"
+theme = "hugo-theme-cactus-plus"
+# Enter your tracking code to enable Google Analytics
+#googleAnalytics = "your_google_analytics_code"
+#hasCJKLanguage = true
+
+[params]
+	name = "Samba"
+	description = "init karma && make confusion"
+	bio = "Simplicity is the ultimate sophistication"
+	# Enter optionally your twitter account
+	twitter = "@opensamba"
+	enableRSS = false
+
+	# Disqus comment
+	disqusShortname = "smb"
+	# Disable disqus comments by set `enableDisqus = "false"`
+	enableDisqus = false
+
+	# Duoshuo comment
+	duoshuoShortname = "smb"
+	# Disable duoshuo comments by set `enableDuoshuo = "false"`
+	enableDuoshuo = false
+
+	enableGithubIssuesTips = false
+
+	# Enable googleAnalytics
+	enableGoogleAnalytics = false
+
+	# Enable baiduAnalytics
+	enableBaiduAnalytics = false
+	# Baidu Tongji Code
+	baiduAnalytics = 'your_baidu_tongji_code'
+
+	# Add custom assets with their paths relative to the static folder
+	customCSS = []
+	customJS  = []
+
+	# The variables below are optionally too and can be used to
+	# translate or customize each string of the theme.
+
+	# Navigation links
+	home = "ciao"
+	about = ""
+	archive = ""
+	subscribe = ""
+	# Pagination links
+	olderPosts = ""
+	newerPosts = ""
+	readMore = ""
+	copyright = "share with stocazzo"
+	# Sharing options and author information in posts
+	aboutAuthor = "I am ...what I am."
+	tweet = ""
+	share = ""
+	# 404 page
+	title404 = ""
+	subtitle404 = ""
+
+	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
+	iconFont = "font-awesome"
+  # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
+  socialIconStyle = "empty"
+
+
+# Add additional social link entries underneath
+[social]
+  twitter-square = "https://twitter.com/opensamba"
+  github-square = "https://github.com/opensamba"
